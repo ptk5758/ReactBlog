@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  height: 100%;
+  width: 100%;
 }
 
 code {
@@ -37,6 +40,6 @@ nav div {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  border: 1px solid#000000;
+  border: 0px solid#000000;
   border-radius: 50%;
 }

@@ -14,11 +14,11 @@ class Nav extends React.Component{
     render(){
         return(
             <nav>
-                <div>자기소개</div>
+                <div>메인</div>
                 <div>자기소개</div>
                 <div><ProfileImg/></div>
-                <div>자기소개</div>
-                <div>자기소개</div>
+                <div>기타소개</div>
+                <div>프로잭트</div>
             </nav>
         );
     }
