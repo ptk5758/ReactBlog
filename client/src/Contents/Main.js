@@ -40,9 +40,9 @@ class ProfileAbility extends React.Component{
             <div className="ProfileAbility">
                 <div>기술 및 프레임워크</div>
                 <div className="ProfileAbilityBoard">
-                    {this.props.myAbility.map((myAbility,index) => {
+                    {this.props.myAbility ? this.props.myAbility.map((myAbility,index) => {
                         return <Ability name={myAbility.name} key={index} img={myAbility.img}/>
-                    })}
+                    }) : <h1>로딩중</h1>}
                 </div>
             </div>
         );
