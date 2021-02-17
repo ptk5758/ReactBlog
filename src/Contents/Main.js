@@ -38,7 +38,7 @@ class ProfileAbility extends React.Component{
     render(){
         return(
             <div className="ProfileAbility">
-                <div>사용가능한 기술</div>
+                <div>기술 및 프레임워크</div>
                 <div className="ProfileAbilityBoard">
                     {this.props.myAbility.map((myAbility,index) => {
                         return <Ability name={myAbility.name} key={index} img={myAbility.img}/>
