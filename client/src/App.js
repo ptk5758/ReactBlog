@@ -2,6 +2,7 @@ import { render } from '@testing-library/react';
 import React, { Component } from 'react';
 import Header from './include/header.js';
 import MainContent from './Contents/Main.js';
+import InputBoard from './Contents/InputComponent';
 
 class App extends React.Component{
 
@@ -22,25 +23,13 @@ class App extends React.Component{
   }
 
   render(){
-    console.log(this.state.code);
     return (
       <div className="App">
           <Header/>
           <MainContent myAbility={this.state.ability}/>
+          <InputBoard/>
       </div>
     );
   }
 }
-
-class TestInputComponent extends React.Component{
-  render(){
-    return(
-      <div>
-        <span><input type="submit" /></span>
-        <span><input type="button"/></span>
-      </div>
-    );
-  }
-}
-
 export default App;
