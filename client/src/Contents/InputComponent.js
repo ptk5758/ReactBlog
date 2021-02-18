@@ -19,9 +19,10 @@ class InputBoard extends React.Component{
     }
 
     addAbility = () => {
-        const url = "/api/Ability";
+        const url = "/api/Abilitys";
         const formData = new FormData();
         formData.append("img", this.state.file);
+        formData.append("imgName", this.state.fileName);
         formData.append("name", this.state.name);
 
         const config = {
@@ -35,6 +36,7 @@ class InputBoard extends React.Component{
     }
 
     fileChange = (e) => {
+        console.log(e.target.files[0].name);
         this.setState({
             file: e.target.files[0],
             fileName: e.target.value
