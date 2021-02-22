@@ -1,33 +1,14 @@
-import { render } from '@testing-library/react';
 import React, { Component } from 'react';
-import Header from './include/header.js';
-import MainContent from './Contents/Main.js';
-import InputBoard from './Contents/InputComponent';
+import Header from './include/header';
+import Sections from './components/content/Sections';
 
 class App extends React.Component{
-
-  state = {
-    ability: ""
-  }
-
-  componentDidMount(){
-    this.callApi()
-    .then(res => this.setState({ability: res}))
-    .catch(error => console.log(error));
-  }
-
-  callApi = async () => {
-    const response = await fetch('/api/Abilitys');
-    const body = await response.json();
-    return body;
-  }
-
   render(){
+    console.log(window.innerHeight);
     return (
       <div className="App">
-          <Header/>
-          <MainContent myAbility={this.state.ability}/>
-          <InputBoard/>
+          <Header/>          
+          <Sections/>
       </div>
     );
   }
