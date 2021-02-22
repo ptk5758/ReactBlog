@@ -1,9 +1,24 @@
+@font-face{
+    font-family: "도트";
+    src: url(/src/font/neodgm_pro.ttf);
+}
+@font-face{
+    font-family: "NotePen";
+    src: url(/src/font/NotoSansKR-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: "NotePen";
+    src: url(/src/font/NotoSansKR-Light.otf);
+    font-weight: lighter;
+}
+
+
 .Section{    
     width: 90%;
     margin: 0 auto;
     margin-top: 100px;
     background-color: #4a4e55;
-    height: 800px;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -13,4 +28,106 @@
 }
 .Section_1{
     font-size: 32px;
+}
+.Section_2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Section_2_Content{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Section_2_Content > div{
+    width: 40%;
+    text-align: center;
+    border: 0px solid#000000;
+    border-bottom: 2px solid#e0e0e0;
+    margin: 2em;
+    padding-left: 0.5em;
+    display: flex;
+}
+.Section_2_Content_Item > span:first-child{
+    width: 20%;
+    font-weight: bold;
+}
+.Section_2_Content_Item > span:last-child{
+    width: 70%;
+    font-family: "NotePen";
+}
+.Section_2_ImgBoard{
+    width: 60%;
+    margin: 1em;
+}
+.Section_2_ImgBoard_Item{
+    font-size: 24px;
+    font-family: "NotePen";
+
+}
+.Section_2_ImgBoard_Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Section_2_ImgBoard_Item div:last-child{
+    width: 50%;
+}
+.Section_2_ImgBoard_Item img{
+    width: 150px;
+    height: 210px;
+}
+
+.Section_3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1.5em;
+}
+.Section_3_Title{
+    font-size: 38px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 0.8em;
+}
+.Section_3_Content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Section_3_Item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    position: relative;
+    margin: 1.2em;
+}
+.Section_3_Item:hover > .iconText{
+    top: -25%;
+    opacity: 1;
+    border-bottom: 1px solid#fff;
+}
+.iconText{
+    position: absolute;
+    transition: all 0.8s;
+    top: -15%;
+    opacity: 0;
+    font-size: 22px;
+}
+.Section_3_Item img {
+    width: 140px;
+    height: 140px;
+}
+.Section_4{
+    width: 100%;
 }
