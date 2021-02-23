@@ -111,6 +111,10 @@ class Section3 extends React.Component{
                             <div className="iconText">Java</div>
                         </div>
                         <div className="Section_3_Item">                            
+                            <div className="iconimg"><i className="fas fa-leaf fa-7x"></i></div>
+                            <div className="iconText">Spring</div>
+                        </div>
+                        <div className="Section_3_Item">                            
                             <div className="iconimg"><i className="fab fa-github fa-7x"></i></div>
                             <div className="iconText">github</div>
                         </div>

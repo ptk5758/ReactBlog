@@ -25,6 +25,7 @@ header{
   width: 100%;
   top:0%;
   height: 80px;
+  z-index: 3;
 }
 .headerContent{
   height: 100%;
@@ -60,4 +61,31 @@ header{
 
 .Content{
   margin-top: 80px;
+}
+nav{
+  position: fixed;
+  top: 8%;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+nav a {
+  width: 25%;
+  text-align: center;
+  padding: 0.5em;
+  background-color: rgb(113, 202, 224);
+  border-radius: 0px 0px 15px 15px;
+  transition: all 1s;
+  cursor: pointer;
+  letter-spacing: 5px;
+}
+nav > a:hover{
+  background-color: aquamarine;
+}
+nav > a:active{
+  transition: all 0.1s;
+  background-color: chartreuse;
 }
