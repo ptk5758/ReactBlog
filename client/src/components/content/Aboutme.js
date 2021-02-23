@@ -23,21 +23,32 @@ class Aboutme extends React.Component{
                         </div>
                         <div className="AboutmeBoard_Item">
                             <div className="Aboutme_Title">
-                                <span>{`"성장 과정"`}</span>
+                                <span>{`"5년 이내의 목표"`}</span>
                             </div>
                         </div>
                         <div className="AboutmeBoard_Item">
                             <div className="Aboutme_Text">
-                                <b>{`"도전 그리고 도전"`}</b>
+                                <b>{`"사람의 가치는 인성이고 능력은 실력이다"`}</b>
                                 <br/>
-                                {`저는 군 복무를 마친 후 사회로 나와 전기공사 회사에서 3개월간 일을 하였습니다. 이 일을 하면서 힘든 업무 강도 잦은 주말 출근을 많이 하였었지만 이 일 만의 매력을 느낄 수 있었고 묵묵히 일을 하였습니다. 하지만 저는 더욱 성장하고 싶었지만 코로나 사태와 회사사정으로 인하여 그만두게 되었고 이 일을 경험 삼아 프로그래밍에 도전하게 되었습니다. 처음 HTML5, CSS3를 배우면서 프로그래밍에 즐거움을 배우고 Javascript, JAVA를 배우면서 처음으로 벽을 느끼고 매일 새벽까지 공부하면서 극복해내기도 하였습니다. 웹 프로그래밍을 배우면서 새로운 것을 배우는 것에 재미가 들렸던 저는 JQuery, Ajax, REST API 또한 계속해서 공부하였고 이 이를 활용하여 포트폴리오에 적용하여 사용할 수 있었습니다. 저는 더 나아가서 다양한 언어 다양한 개발 환경에서 개발할 수 있는 다재다능한 개발자가 되는 것이 목표입니다.
+                                {`저의 목표는 다양한 언어를 어떠한 개발 환경에서 개발할 수 있는 풀스택 개발자가 되는것이 목표입니다.                                
+                                현재 저는 실무 경험이 부족하지만 확실한 목표가 있기에 실무 경험을 통한 공부를 하게 된다면 더욱 빠르게 성장할 수 있을 것입니다.
+                                우선 실무를 경험해보고 저의 능력을 인정받을 수 있게 되었다면 저는 평소부터 배워보고 싶었던 TypeScript를 공부할 것입니다. 그리고 이를 통해 React뿐만 아니라 Vue.js, Angular.js 와 같은 자바스크립트 프레임 워크를 공부하여 웹 애플리케이션을 개발할 수 있는 개발자가 되는 것이 5년 이내의 목표입니다.
                                 `}
                             </div>
                         </div>
-                        <div className="AboutmeBoard_Item">5</div>
-                        <div className="AboutmeBoard_Item">6</div>
-                        <div className="AboutmeBoard_Item">7</div>
-                        <div className="AboutmeBoard_Item">8</div>                
+                        <div className="AboutmeBoard_Item">
+                            <div className="Aboutme_Title">
+                                <span>{`"회사에서의 되고 싶은 나의 모습"`}</span>
+                            </div>
+                        </div>
+                        <div className="AboutmeBoard_Item">
+                            <div className="Aboutme_Text">
+                                <b>{`"같이있으면 소모가아닌 충전되는 동료"`}</b>
+                                <br/>
+                                {`저는 군대와 사회에서 전기공사를 했었습니다. 군대에서는 주로 가로등을 설치하였고 사회에서는 조명설비 및 공장 설비 전기공사를 하였습니다. 공사는 정말 몸이 힘든 일이었지만 같이 일하면 즐거운 사람도 있고 그렇지 않은 사람도 있었습니다. 저는 아무리 힘든 일이더라도 함께 일하면 즐거운 사람과 일을 하며 즐거움과 보람을 느꼈고 저 또한 이러한 사람이 되자 생각하였습니다. 만약 취업하게 되어 같이 일할 수 있게 된다면 같이 일하면 마음이 소모가 아닌 충천이 될 수 있는 사람이 되도록 하겠습니다.
+                                `}
+                            </div>
+                        </div>               
                     </div>
                 </div>
             </div>
