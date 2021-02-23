@@ -63,8 +63,8 @@ header{
   margin-top: 80px;
 }
 nav{
-  position: fixed;
-  top: 8%;
+  position: absolute;
+  top: 100%;
   display: flex;
   justify-content: space-around;
   width: 100%;

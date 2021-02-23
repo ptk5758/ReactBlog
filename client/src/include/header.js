@@ -8,11 +8,11 @@ class Header extends React.Component{
                     <div className="headerContent">
                         <div>DOC LOGO</div>
                         <div>Admin System</div>
-                    </div>                
-                </header>
-                <Nav
-                    onChangePage={this.props.onChangePage}
-                />
+                    </div>
+                    <Nav
+                        onChangePage={this.props.onChangePage}
+                    />
+                </header>                
             </div>
         );
     }
@@ -29,11 +29,11 @@ class Nav extends React.Component{
                 <a onClick={function(e){
                     e.preventDefault();
                     this.props.onChangePage("aboutme");
-                }.bind(this)}>자기소게</a>
+                }.bind(this)}>자기소개</a>
                 <a onClick={function(e){
                     e.preventDefault();
                     this.props.onChangePage("other");
-                }.bind(this)}>기타소게</a>
+                }.bind(this)}>기타소개</a>
             </nav>
         );
     }

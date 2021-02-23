@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './include/header';
 import Sections from './components/content/Sections';
+import Aboutme from './components/content/Aboutme';
 
 class App extends React.Component{
 
@@ -8,7 +9,7 @@ class App extends React.Component{
     super(props);
     this.state = {
       code: "main",
-      result: <Sections/>
+      result: <Aboutme/>
     }
   }
 
@@ -17,7 +18,7 @@ class App extends React.Component{
     if(value === "main") {
       showComponents = <Sections/>
     } else if (value === "aboutme") {
-      showComponents = "aboutme";
+      showComponents = <Aboutme/>;
     } else {
       showComponents = "other";
     }
