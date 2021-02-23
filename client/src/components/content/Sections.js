@@ -1,6 +1,7 @@
 import React from 'react';
 import profileimg from '../../img/park.jpg';
-import ability1 from '../../img/js.png';
+import mysqlpng from '../../img/mysql.png';
+import mariadbpng from '../../img/mariadb.png';
 
 class Sections extends React.Component{
     render(){
@@ -143,11 +144,11 @@ class Section4 extends React.Component{
                     </div>
                     <div className="Section_3_Content">
                         <div className="Section_3_Item">                            
-                            <div className="iconimg"><img src={"/img/mysql.png"} /></div>
+                            <div className="iconimg"><img src={mysqlpng} /></div>
                             <div className="iconText">MySQL</div>
                         </div>
                         <div className="Section_3_Item">                            
-                            <div className="iconimg"><img src={"/img/mariadb.png"} /></div>
+                            <div className="iconimg"><img src={mariadbpng} /></div>
                             <div className="iconText">MariaDB</div>
                         </div>
                     </div>
