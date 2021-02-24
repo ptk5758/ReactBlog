@@ -74,6 +74,7 @@ class Project1 extends React.Component{
                         <span>
                             <div>개발환경 - windows+JSP+MySQL+MariaDB+Tomcat (Spring MVC 패턴)</div>
                             <div>개발기술 - JAVA, spring, HTML5, CSS3, javascript, jQuery, REST API</div>
+                            <div>깃허브 - <a href={"https://github.com/ptk5758/GoosStore"}>https://github.com/ptk5758/GoosStore</a></div>                            
                         </span>
                     </div>
                 </div>
@@ -105,6 +106,7 @@ class Project2 extends React.Component{
                         <span>
                             <div>개발환경 - windows+JSP+MySQL+Servlet+Tomcat</div>
                             <div>개발기술 - JAVA, spring, HTML5, CSS3, javascript, jQuery</div>
+                            <div>깃허브 - <a href={"https://github.com/ptk5758/project2"}>https://github.com/ptk5758/project2</a></div>
                         </span>
                     </div>
                 </div>
