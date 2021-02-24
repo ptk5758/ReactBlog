@@ -20,8 +20,8 @@ class Section1 extends React.Component{
         return(
             <div className="Section">
                 <div className="Section_1">
-                    <h2>Main</h2>
-                    <p>hello user this document is TaeGwang Park portfolio</p>
+                    <h2>Hello User</h2>
+                    <p>박태광 의 포트폴리오 사이트입니다.</p>
                 </div>
             </div>
         );

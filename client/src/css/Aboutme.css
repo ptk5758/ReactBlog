@@ -26,6 +26,34 @@
 .AboutmeBoard_Item{
     background-color: #767c87;
     border-radius: 10px;
+    position: relative;
+}
+.AboutmeBoard_Item::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    border-top: 2px solid#ffffff;
+    border-bottom: 2px solid#ffffff;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.AboutmeBoard_Item::after{
+    content: '';
+    top: -0%;
+    width: 100%;
+    height: 0%;
+    position: absolute;
+    border-left: 1px solid#ffffff;
+    border-right: 1px solid#ffffff;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.AboutmeBoard_Item:hover::before{
+    width: 100%;
+}
+.AboutmeBoard_Item:hover::after{
+    height: 100%;
 }
 .AboutmeBoard_Item:nth-child(1){
     grid-column: 1/3;

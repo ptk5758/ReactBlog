@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './include/header';
 import Sections from './components/content/Sections';
 import Aboutme from './components/content/Aboutme';
+import Other from './components/content/Other';
 
 class App extends React.Component{
 
@@ -20,7 +21,7 @@ class App extends React.Component{
     } else if (value === "aboutme") {
       showComponents = <Aboutme/>;
     } else {
-      showComponents = "other";
+      showComponents = <Other/>;
     }
     this.setState({
       code: value,

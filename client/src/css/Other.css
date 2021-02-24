@@ -1,0 +1,90 @@
+@font-face{
+    font-family: "NotePen";
+    src: url(/src/font/NotoSansKR-Bold.otf);
+    font-weight: bold;
+}
+@font-face{
+    font-family: "NotePen";
+    src: url(/src/font/NotoSansKR-Light.otf);
+    font-weight: lighter;
+}
+
+
+.Other{
+    margin-top: 150px;
+}
+.OtherContent{
+    width: 100%;
+    background-color: rgb(95, 158, 160, 0.5);
+    margin: 0 auto;
+}
+.OtherContentItem{
+    width: 85%;
+    background-color: rgb(255, 127, 80, 0.8);
+    margin: 0 auto;
+}
+.OtherContentItem_Title{
+    font-size: 24px;
+    padding: 1em;
+    font-weight: bold;
+    font-family: "NotePen";
+    
+}
+.OtherContentItem_Text{
+    background-color: #4a4e55;
+}
+.ProjectAbout{
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.ProjectItem{
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 1em auto;
+    border: 2px solid#ffffff;
+    border-radius: 10px;
+}
+.Project_IMG{
+    width: 25%;
+    border-right: 1px solid#eeeeee;
+    position: relative;
+}
+.Project_IMG img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.Project_Text{
+    width: 75%;
+    display: grid;
+    grid-column: 1fr;
+}
+.Project_Text > div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid#ffffff;
+    background-color: #4a4e55;
+}
+.Project_Text > div:first-child{
+    border-top: 1px solid#ffffff;
+}
+.Project_Text > div > span:first-child{
+    width: 20%;
+    text-align: center;
+    padding: 1em;
+    font-size: 18px;
+    font-weight: bold;
+}
+.Project_Text > div > span:last-child{
+    width: 80%;
+    padding: 0.5em;
+}
