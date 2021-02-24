@@ -6,8 +6,12 @@ class Header extends React.Component{
             <div>
                 <header>
                     <div className="headerContent">
-                        <div>DOC LOGO</div>
-                        <div>Admin System</div>
+                        <div onClick={()=>{
+                            window.location.reload();
+                        }}>DOC LOGO</div>
+                        <div onClick={function(){
+                            this.props.adminGo();
+                        }.bind(this)}>Admin System</div>
                     </div>
                     <Nav
                         onChangePage={this.props.onChangePage}

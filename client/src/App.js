@@ -37,6 +37,9 @@ class App extends React.Component{
             onChangePage={function(value){
               this.stateRefresh(value);
             }.bind(this)}
+            adminGo={function(){
+              let password = prompt();
+            }.bind(this)}
           />
           {this.state.result}
       </div>
